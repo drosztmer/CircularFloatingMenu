@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CircularFloatingMenu</string>
+    <string name="fab_sun">Sun clicked.</string>
+    <string name="fab_cloud">Cloud clicked.</string>
+    <string name="fab_mountain">Mountain clicked.</string>
+</resources>

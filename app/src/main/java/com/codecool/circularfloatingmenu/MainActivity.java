@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
             fabCloud.startAnimation(fabClose);
             fabMountain.startAnimation(fabClose);
 
-            fabSun.setClickable(false);
-            fabCloud.setClickable(false);
-            fabMountain.setClickable(false);
+            fabSun.setVisibility(View.GONE);
+            fabCloud.setVisibility(View.GONE);
+            fabMountain.setVisibility(View.GONE);
 
             isOpen = false;
         } else {
@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
             fabCloud.startAnimation(fabOpen);
             fabMountain.startAnimation(fabOpen);
 
-            fabSun.setClickable(true);
-            fabCloud.setClickable(true);
-            fabMountain.setClickable(true);
+            fabSun.setVisibility(View.VISIBLE);
+            fabCloud.setVisibility(View.VISIBLE);
+            fabMountain.setVisibility(View.VISIBLE);
 
             isOpen = true;
         }

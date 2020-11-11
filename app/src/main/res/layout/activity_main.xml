@@ -22,7 +22,7 @@
         android:layout_marginStart="@dimen/fab_margin"
         android:layout_marginLeft="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/margin_big"
-        android:visibility="invisible"
+        android:visibility="gone"
         android:src="@drawable/ic_sun" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -33,7 +33,7 @@
         android:layout_marginStart="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginBottom="@dimen/margin_small"
-        android:visibility="invisible"
+        android:visibility="gone"
         android:src="@drawable/ic_cloud" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -44,7 +44,7 @@
         android:layout_marginStart="@dimen/margin_big"
         android:layout_marginLeft="@dimen/margin_big"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:visibility="invisible"
+        android:visibility="gone"
         android:src="@drawable/ic_mountain" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
